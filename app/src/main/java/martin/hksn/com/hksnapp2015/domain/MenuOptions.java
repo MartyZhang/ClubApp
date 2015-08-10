@@ -1,4 +1,4 @@
-package martin.hksn.com.hksnapp2015.menu;
+package martin.hksn.com.hksnapp2015.domain;
 
 /**
  * Created by yanqzhang on 7/27/15.
@@ -9,13 +9,13 @@ public enum MenuOptions {
     ABOUT_US(3),
     EVENTS(4);
 
-    private int orderValue;
+    private int icon;
 
-    MenuOptions(int orderValue) {
-        this.orderValue = orderValue;
+    MenuOptions(int icon) {
+        this.icon = icon;
     }
 
     public int getOrderValue() {
-        return orderValue;
+        return icon;
     }
 }
