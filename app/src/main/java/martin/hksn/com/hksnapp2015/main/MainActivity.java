@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar mainActionBar = (Toolbar) findViewById(R.id.hksn_toolbar);
         setSupportActionBar(mainActionBar);
         mainActionBar.setNavigationIcon(R.drawable.ic_reorder_white_24dp);
-        mainActionBar.setLogoDescription("");
+        mainActionBar.setTitle("");
         final DropDownItem[] menuList = new DropDownItem[]{
                 new DropDownItem("Home", R.drawable.ic_home_white_48dp, MainHomeFragment.class),
                 new DropDownItem("Sponsors", R.drawable.ic_domain_white_48dp, MainSponsorFragment.class),
