@@ -21,8 +21,10 @@ public class SpinnerArrayAdapter extends ArrayAdapter {
     private int layoutResourceId;
     private List<DropDownItem> spinnerList;
 
-    public SpinnerArrayAdapter(Context context, int layoutResourceId, List<DropDownItem> spinnerList ) {
-        super(context, layoutResourceId);
+    public SpinnerArrayAdapter(Context context, int layoutResourceId, List<DropDownItem> spinnerList) {
+        super(context, layoutResourceId, spinnerList);
+        this.context = context;
+        this.layoutResourceId = layoutResourceId;
         this.spinnerList = spinnerList;
     }
 
@@ -31,8 +33,8 @@ public class SpinnerArrayAdapter extends ArrayAdapter {
         View currentView = convertView;
         MenuItemHolder holder = null;
 
-        if(currentView == null) {
-            LayoutInflater inflater = ((Activity)context).getLayoutInflater();
+        if (currentView == null) {
+            LayoutInflater inflater = ((Activity) context).getLayoutInflater();
             currentView = inflater.inflate(layoutResourceId, parent, false);
             holder = new MenuItemHolder();
             holder.name = (TextView) currentView.findViewById(R.id.navigation_title);
@@ -46,12 +48,30 @@ public class SpinnerArrayAdapter extends ArrayAdapter {
         holder.name.setText(dropDownItem.getName());
         holder.icon.setImageResource(dropDownItem.getIcon());
 
-        return null;
+        return currentView;
     }
 
     @Override
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
-        return null;
+        View currentView = convertView;
+        MenuItemHolder holder = null;
+
+        if (currentView == null) {
+            LayoutInflater inflater = ((Activity) context).getLayoutInflater();
+            currentView = inflater.inflate(layoutResourceId, parent, false);
+            holder = new MenuItemHolder();
+            holder.name = (TextView) currentView.findViewById(R.id.navigation_title);
+            holder.icon = (ImageView) currentView.findViewById(R.id.navigation_icon);
+            currentView.setTag(holder);
+        } else {
+            holder = (MenuItemHolder) currentView.getTag();
+        }
+
+        DropDownItem dropDownItem = spinnerList.get(position);
+        holder.name.setText(dropDownItem.getName());
+        holder.icon.setImageResource(dropDownItem.getIcon());
+
+        return currentView;
     }
 
 

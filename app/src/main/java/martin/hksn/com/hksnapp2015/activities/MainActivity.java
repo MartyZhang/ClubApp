@@ -1,19 +1,12 @@
-package martin.hksn.com.hksnapp2015.main;
+package martin.hksn.com.hksnapp2015.activities;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBar;
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SpinnerAdapter;
+import android.widget.Spinner;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import martin.hksn.com.hksnapp2015.R;
@@ -33,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar mainActionBar = (Toolbar) findViewById(R.id.hksn_toolbar);
         setSupportActionBar(mainActionBar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         mainActionBar.setNavigationIcon(R.drawable.ic_reorder_white_24dp);
-        mainActionBar.setTitle("");
         final DropDownItem[] menuList = new DropDownItem[]{
                 new DropDownItem("Home", R.drawable.ic_home_white_48dp, MainHomeFragment.class),
                 new DropDownItem("Sponsors", R.drawable.ic_domain_white_48dp, MainSponsorFragment.class),
@@ -42,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 new DropDownItem("Events", R.drawable.ic_grade_white_48dp, MainEventsFragment.class)
         };
 
-        SpinnerAdapter mNavigationSpinner = new SpinnerArrayAdapter(this, R.layout.spinner_navigation_layout,
-                Arrays.asList(menuList));
-
+        Spinner spinnerNav = (Spinner) findViewById(R.id.spinner_nav);
+        spinnerNav.setAdapter(new SpinnerArrayAdapter(this, R.layout.spinner_navigation_layout,
+                Arrays.asList(menuList)));
     }
 
     @Override
@@ -59,13 +52,6 @@ public class MainActivity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
