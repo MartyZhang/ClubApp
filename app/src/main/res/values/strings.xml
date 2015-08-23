@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">HKSN App 2015</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hksn_home_title">Welcome to the HKSN 2015-16 App!</string>
+    <string name="hksn_home_body">The McGill Hong Kong Student Network is a student-run organization officially founded in 2006. With over 400 members this year, the vision of the network is to connect students within the McGill student body to Hong Kong by building bridges that facilitate the integration of our members within the Hong Kong community for all purposes including travel and work.</string>
+    <!--main pages-->
+    <string name="title_home">"Home"</string>
+    <string name="title_sponsors">"Sponsors"</string>
+    <string name="title_about_us">"About Us"</string>
+    <string name="title_events">"Events"</string>
+    <!--home page descriptors-->
+    <string name="home_page1">insert description</string>
+    <string name="home_page2">insert description</string>
+    <string name="home_page3">insert description</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string-array name="navgation_list">
-        <item>Home</item>
-        <item>Sponsors</item>
-        <item>About Us</item>
-        <item>Events</item>
+    <string-array name="sponsor1">
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
+
 </resources>

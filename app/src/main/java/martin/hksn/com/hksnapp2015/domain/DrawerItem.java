@@ -5,12 +5,17 @@ import android.support.v4.app.Fragment;
 /**
  * Created by yanqzhang on 8/8/15.
  */
-public class DropDownItem {
+public class DrawerItem {
+    private boolean selected;
     private String name;
     private int icon;
     private Class<? extends Fragment> fragmentClass;
 
-    public DropDownItem(String name, int icon, Class<? extends Fragment> fragmentClass) {
+    public DrawerItem() {
+
+    }
+
+    public DrawerItem(String name, int icon, Class<? extends Fragment> fragmentClass) {
         this.name = name;
         this.icon = icon;
         this.fragmentClass = fragmentClass;
@@ -38,5 +43,13 @@ public class DropDownItem {
 
     public void setFragmentClass(Class<? extends Fragment> fragmentClass) {
         this.fragmentClass = fragmentClass;
+    }
+
+    public boolean isSelected() {
+        return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
     }
 }
