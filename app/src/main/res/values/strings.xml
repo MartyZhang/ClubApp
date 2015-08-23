@@ -18,10 +18,10 @@
     <string name="s1_description">A Japanese pub where appetizer-size dishes are served one at a time and shared.
         This style of dining lets guests relax and enjoy themselves while sharing a variety of small dishes.
         Montreal\'s finest Izakaya. </string>
-    <string name="s1_address"></string>
-    <string name="s1_phone"></string>
-    <string name="s1_hours"></string>
-    <string name="s1_discount"></string>
+    <string name="s1_address">3000 St Catherine Street West</string>
+    <string name="s1_phone">6473389878</string>
+    <string name="s1_hours">Mon - Fri 9-5pm</string>
+    <string name="s1_discount">10% Off</string>
 
 
 

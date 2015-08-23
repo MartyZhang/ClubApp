@@ -1,5 +1,6 @@
 package martin.hksn.com.hksnapp2015.sponsors;
 
+import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,10 +16,9 @@ import martin.hksn.com.hksnapp2015.R;
 /**
  * Created by yanqzhang on 7/26/15.
  */
-public class SponsorListViewAdapter extends ArrayAdapter{
+public class SponsorListViewAdapter extends ArrayAdapter {
     private List<Sponsor> sponsorList;
     private Context context;
-    private LayoutInflater inflater;
 
     public SponsorListViewAdapter(Context context, List<Sponsor> sponsorList, int resource) {
         super(context, resource, sponsorList);
@@ -28,9 +28,25 @@ public class SponsorListViewAdapter extends ArrayAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View currentView = inflater.inflate(R.layout.sponsor_layout, parent, false);
+        SponsorHolder sponsorHolder;
+        if (convertView == null) {
+            LayoutInflater inflater = ((Activity) context).getLayoutInflater();
+            convertView = inflater.inflate(R.layout.sponsor_list_layout, parent, false);
+            sponsorHolder = new SponsorHolder();
+            sponsorHolder.sponsorLogo = (ImageView) convertView.findViewById(R.id.sponsor_logo_list);
+            sponsorHolder.discount = (TextView) convertView.findViewById(R.id.sponor_discount_list);
+            convertView.setTag(sponsorHolder);
+        } else {
+            sponsorHolder = (SponsorHolder) convertView.getTag();
+        }
 
-        return null;
+        Sponsor sponsor = sponsorList.get(position);
+        if (sponsor != null) {
+            sponsorHolder.sponsorLogo.setImageResource(sponsor.getImageResource());
+            sponsorHolder.discount.setText(sponsor.getDiscount());
+        }
+
+        return convertView;
     }
 
     @Override
@@ -38,12 +54,8 @@ public class SponsorListViewAdapter extends ArrayAdapter{
         return sponsorList.get(position);
     }
 
-    static class sponsorHolder {
+    static class SponsorHolder {
         ImageView sponsorLogo;
         TextView discount;
-
-        public sponsorHolder(View view) {
-
-        }
     }
 }
