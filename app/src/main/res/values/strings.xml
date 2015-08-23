@@ -14,10 +14,15 @@
     <string name="home_page2">insert description</string>
     <string name="home_page3">insert description</string>
 
-    <string-array name="sponsor1">
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
+    <string name="s1_name">Imadake</string>
+    <string name="s1_description">A Japanese pub where appetizer-size dishes are served one at a time and shared.
+        This style of dining lets guests relax and enjoy themselves while sharing a variety of small dishes.
+        Montreal\'s finest Izakaya. </string>
+    <string name="s1_address"></string>
+    <string name="s1_phone"></string>
+    <string name="s1_hours"></string>
+    <string name="s1_discount"></string>
+
+
 
 </resources>
