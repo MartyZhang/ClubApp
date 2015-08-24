@@ -11,8 +11,9 @@ public class Sponsor {
     private int hours;
     private int discount;
     private int imageResource;
+    private int google_query;
 
-    public Sponsor(int name, int description, int address, int phone_number, int hours, int discount, int imageResource) {
+    public Sponsor(int name, int description, int address, int phone_number, int hours, int discount, int imageResource, int google_query) {
         this.name = name;
         this.description = description;
         this.address = address;
@@ -20,6 +21,7 @@ public class Sponsor {
         this.hours = hours;
         this.discount = discount;
         this.imageResource = imageResource;
+        this.google_query = google_query;
     }
 
     public int getName() {
@@ -78,4 +80,11 @@ public class Sponsor {
         this.imageResource = imageResource;
     }
 
+    public int getGoogle_query() {
+        return google_query;
+    }
+
+    public void setGoogle_query(int google_query) {
+        this.google_query = google_query;
+    }
 }

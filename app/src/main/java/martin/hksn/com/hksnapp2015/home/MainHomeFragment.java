@@ -12,9 +12,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import martin.hksn.com.hksnapp2015.R;
 import martin.hksn.com.hksnapp2015.domain.BaseContent;
 import martin.hksn.com.hksnapp2015.domain.Fx;
-import martin.hksn.com.hksnapp2015.R;
 import martin.hksn.com.hksnapp2015.domain.OnSwipeTouchListener;
 
 /**

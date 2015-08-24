@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -49,8 +50,8 @@ public class DrawerFragment extends Fragment {
         final DrawerItem[] menuList = new DrawerItem[]{
                 new DrawerItem("Home", R.drawable.ic_home_white_48dp, MainHomeFragment.class),
                 new DrawerItem("Sponsors", R.drawable.ic_domain_white_48dp, MainSponsorFragment.class),
-                new DrawerItem("About Us", R.drawable.ic_face_white_48dp, MainAboutUsFragment.class),
-                new DrawerItem("Events", R.drawable.ic_grade_white_48dp, MainEventsFragment.class)
+                new DrawerItem("Events", R.drawable.ic_grade_white_48dp, MainEventsFragment.class),
+                new DrawerItem("About Us", R.drawable.ic_face_white_48dp, MainAboutUsFragment.class)
         };
         return Arrays.asList(menuList);
     }
@@ -98,7 +99,7 @@ public class DrawerFragment extends Fragment {
     public void setUp(int fragmentId, DrawerLayout drawerLayout, final Toolbar toolbar) {
         containerView = getActivity().findViewById(fragmentId);
         mDrawerLayout = drawerLayout;
-        mDrawerToggle = new ActionBarDrawerToggle(getActivity(), drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close) {
+        mDrawerToggle = new ActionBarDrawerToggle((AppCompatActivity) getActivity(), drawerLayout, R.string.drawer_open, R.string.drawer_close) {
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
@@ -123,8 +124,10 @@ public class DrawerFragment extends Fragment {
                 mDrawerToggle.syncState();
             }
         });
-
     }
+
+
+
 
     public static interface ClickListener {
         public void onClick(View view, int position);
@@ -175,6 +178,10 @@ public class DrawerFragment extends Fragment {
         }
 
 
+    }
+
+    public ActionBarDrawerToggle getmDrawerToggle() {
+        return this.mDrawerToggle;
     }
 
     public interface FragmentDrawerListener {

@@ -1,6 +1,5 @@
 package martin.hksn.com.hksnapp2015.activities;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,7 +7,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -23,36 +21,21 @@ import martin.hksn.com.hksnapp2015.sponsors.MainSponsorFragment;
 
 
 public class MainActivity extends AppCompatActivity implements DrawerFragment.FragmentDrawerListener {
-    private DrawerFragment drawerFragment;
-
+    public static DrawerFragment drawerFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar mainActionBar = (Toolbar) findViewById(R.id.hksn_toolbar);
         setSupportActionBar(mainActionBar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
         drawerFragment = (DrawerFragment) getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         drawerFragment.setUp(R.id.navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mainActionBar);
         drawerFragment.setDrawerListener(this);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         //intialize home page
         displayView(0);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -77,16 +60,17 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
                 logoView.setVisibility(View.GONE);
                 break;
             case 2:
+                fragment = new MainEventsFragment();
+                titleView.setText(getString(R.string.title_events));
+                titleView.setVisibility(View.VISIBLE);
+                logoView.setVisibility(View.GONE);
+                break;
+            case 3:
                 fragment = new MainAboutUsFragment();
                 titleView.setText(getString(R.string.title_about_us));
                 titleView.setVisibility(View.VISIBLE);
                 logoView.setVisibility(View.GONE);
                 break;
-            case 3:
-                fragment = new MainEventsFragment();
-                titleView.setText(getString(R.string.title_events));
-                titleView.setVisibility(View.VISIBLE);
-                logoView.setVisibility(View.GONE);
             default:
                 break;
         }
@@ -96,6 +80,25 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.main_frame, fragment);
             fragmentTransaction.commit();
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (drawerFragment.getmDrawerToggle().onOptionsItemSelected(item)) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        drawerFragment.getmDrawerToggle().setDrawerIndicatorEnabled(true);
+        if(getFragmentManager().getBackStackEntryCount()>0) {
+            getFragmentManager().popBackStack();
         }
     }
 

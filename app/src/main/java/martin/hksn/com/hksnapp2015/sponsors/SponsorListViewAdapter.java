@@ -49,6 +49,7 @@ public class SponsorListViewAdapter extends ArrayAdapter {
         return convertView;
     }
 
+
     @Override
     public Sponsor getItem(int position) {
         return sponsorList.get(position);

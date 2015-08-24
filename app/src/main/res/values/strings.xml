@@ -14,15 +14,38 @@
     <string name="home_page2">insert description</string>
     <string name="home_page3">insert description</string>
 
-    <string name="s1_name">Imadake</string>
+    <string name="event_title1">SING</string>
+    <string name="event_title2">HKSN Ski</string>
+    <string name="event_title3">Semi-Formal</string>
+
+    <string name="event_description1">insert description</string>
+    <string name="event_description2">insert description</string>
+    <string name="event_description3">insert description</string>
+
+    <string name="about_us">\t\tThe Hong Kong Student Network strives to welcome new students from all over the world and showcase to them
+       the wonderfulness that is McGill. We pride ourselves on being a home away from home, and we embrace the multiculturalism that Hong Kong is known for.
+        \n\t\tOver the course of the semester, HKSN organizes a wide variety of events, from singing competitions to ski trips to showcase this sentiment.
+        We hope that everyone who joins HKSN will have an awesome time and meet lots of new people!
+        \n\t\tOur membership cards provide deals from over 25+ sponsors that are displayed in this app, purchase one today for only 5$!.</string>
+    <string name="contact_us">
+        Email: mcgillhksn@gmail.com
+        \nWebsite: hksn.ca
+        \nOffice Hours:
+        \nSSMU Building Suite 408
+        \nTues - Thur 2-6PM
+    </string>
+
+    <string name="no_google_maps_toast">Cannot find Google Maps application</string>
+
+    <string name="s1_name">Name: Imadake</string>
     <string name="s1_description">A Japanese pub where appetizer-size dishes are served one at a time and shared.
         This style of dining lets guests relax and enjoy themselves while sharing a variety of small dishes.
         Montreal\'s finest Izakaya. </string>
-    <string name="s1_address">3000 St Catherine Street West</string>
-    <string name="s1_phone">6473389878</string>
-    <string name="s1_hours">Mon - Fri 9-5pm</string>
+    <string name="s1_address">Address: 3000 St Catherine Street West</string>
+    <string name="s1_phone">Phone: 6473389878</string>
+    <string name="s1_hours">Hours: Mon - Fri 9-5pm</string>
     <string name="s1_discount">10% Off</string>
-
+    <string name="s1_query">3000 St Catherine Street West, Montreal, Canada</string>
 
 
 </resources>
