@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/sponsor_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/sponsor_logo"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/sponsor_discount"
+                android:textColor="@android:color/white"
+                android:layout_width="130dp"
+                android:gravity="center_horizontal"
+                android:layout_height="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/sponsor_name"
+                android:gravity="center_vertical|left"
+                android:textColor="@android:color/white"
+                android:layout_width="180dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/sponsor_address"
+                android:gravity="center_vertical|left"
+                android:textColor="@android:color/white"
+                android:layout_width="180dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/sponsor_hours"
+                android:gravity="center_vertical|left"
+                android:textColor="@android:color/white"
+                android:layout_width="180dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/sponsor_phone_number"
+                android:gravity="center_vertical|left"
+                android:textColor="@android:color/white"
+                android:layout_width="180dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/sponsor_description"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sponsor_location"
+        android:gravity="center"
+        android:text="Take Me Here!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drawer_selector"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

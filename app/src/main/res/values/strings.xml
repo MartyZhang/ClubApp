@@ -1,12 +1,90 @@
 <resources>
     <string name="app_name">HKSN App 2015</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hksn_home_title">Welcome to the HKSN 2015-16 App!</string>
+    <string name="hksn_home_body">The McGill Hong Kong Student Network is a student-run organization officially founded in 2006. With over 400 members this year, the vision of the network is to connect students within the McGill student body to Hong Kong by building bridges that facilitate the integration of our members within the Hong Kong community for all purposes including travel and work.</string>
+    <!--main pages-->
+    <string name="title_home">"Home"</string>
+    <string name="title_sponsors">"Sponsors"</string>
+    <string name="title_about_us">"About Us"</string>
+    <string name="title_events">"Events"</string>
+    <!--home page descriptors-->
+    <string name="home_page1">insert description</string>
+    <string name="home_page2">insert description</string>
+    <string name="home_page3">insert description</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string-array name="navgation_list">
-        <item>Home</item>
-        <item>Sponsors</item>
-        <item>About Us</item>
-        <item>Events</item>
-    </string-array>
+    <string name="event_title1">SING</string>
+    <string name="event_title2">HKSN Ski</string>
+    <string name="event_title3">Semi-Formal</string>
+
+    <string name="event_description1">insert description</string>
+    <string name="event_description2">insert description</string>
+    <string name="event_description3">insert description</string>
+
+    <string name="about_us">\t\tThe Hong Kong Student Network strives to welcome new students from all over the world and showcase to them
+       the wonderfulness that is McGill. We pride ourselves on being a home away from home, and we embrace the multiculturalism that Hong Kong is known for.
+        \n\t\tOver the course of the semester, HKSN organizes a wide variety of events, from singing competitions to ski trips to showcase this sentiment.
+        We hope that everyone who joins HKSN will have an awesome time and meet lots of new people!
+        \n\t\tOur membership cards provide deals from over 25+ sponsors that are displayed in this app, purchase one today for only 5$!.</string>
+    <string name="contact_us">
+        Email: mcgillhksn@gmail.com
+        \nWebsite: hksn.ca
+        \nOffice Hours:
+        \nSSMU Building Suite 408
+        \nTues - Thur 2-6PM
+    </string>
+
+    <string name="no_google_maps_toast">Cannot find Google Maps application</string>
+
+    <string name="s1_name">Name: Alto\'s</string>
+    <string name="s1_description">Alto Restaurant has proudly served the residents of Montréal for over 29 years. Altos offers a diverse selection of Italian and Canadian classics, including pizza, pasta, poutine, grilled meat, and more.</string>
+    <string name="s1_address">Address: 3462 Parc Avenue, Montreal, Canada</string>
+    <string name="s1_phone">Phone: (514)-844-9898</string>
+    <string name="s1_hours">Hours: Sun-Thurs 11am-4am, Fri-Sat 11am-5am</string>
+    <string name="s1_discount">N/A</string>
+    <string name="s1_query">3462 Parc Avenue, Montreal, Canada</string>
+
+    <string name="s2_name">Name: C\'ChoColat</string>
+    <string name="s2_description">C\'ChoColat is a contemporary chocolatier in the heart of downtown Montreal. It serves gourmet chocolates, sweets, and is a perfect place to take that special someone.</string>
+    <string name="s2_address">Address: 1255 Bishop Street, Montreal, Canada</string>
+    <string name="s2_phone">Phone: (514)-392-7777</string>
+    <string name="s2_hours">Hours: Mon - Thurs 11am-11pm, Fri-Sat 11am-12am, Sun 11am-9pm</string>
+    <string name="s2_discount">10% Off</string>
+    <string name="s2_query">1255 Bishop Street, Montreal, Canada</string>
+
+
+    <string name="s3_name">Name: Cacao 70</string>
+    <string name="s3_description">Cacao 70 is a unique place for relaxing and sharing. it’s a perfect place to drop by after a hectic day at school or work to enjoy some of the best chocolate in Montreal. They also serve a fantastic brunch menu worth getting out of bed for. don’t forget to bring a friend with you. chocolate is an ingredient that brings people together!</string>
+    <string name="s3_address">Address: 3488 Parc Avenue, Montreal, Canada</string>
+    <string name="s3_phone">Phone: (514)-844-4442</string>
+    <string name="s3_hours">Hours: Sun-Thurs 10-11pm, Fri-Sat 10-00AM</string>
+    <string name="s3_discount">Free Americano Hot Chocolate</string>
+    <string name="s3_query">1255 Bishop Street, Montreal, Canada</string>
+
+    <string name="s4_name">Name: Cafe Aunja</string>
+    <string name="s4_description">Cozy basement-level Persian tea \& coffee spot offering sweets, art on the walls \& live music.</string>
+    <string name="s4_address">Address: 1448 Sherbrooke West, Montreal, Canada</string>
+    <string name="s4_phone">Phone: (514)-914-8337</string>
+    <string name="s4_hours">Hours: Mon-Sun 10am-10pm</string>
+    <string name="s4_discount">10% Off</string>
+    <string name="s4_query">1448 Sherbrooke West, Montreal, Canada</string>
+
+    <string name="s5_name">Name: Chatime</string>
+    <string name="s5_description">The Starbucks of boba, Chatime serves the best bubble tea in the world! Come enjoy a free upgrade with HKSN!</string>
+    <string name="s5_address">Address: 1811 St Catherine, Montreal, Canada</string>
+    <string name="s5_phone">Phone: (514)-933-4040</string>
+    <string name="s5_hours">Hours: Mon-Sun 12pm-11pm</string>
+    <string name="s5_discount">Free Upgrade</string>
+    <string name="s5_query">1811 St Catherine, Montreal, Canada</string>
+
+    <string name="s6_name">Name: Dobe \& Andy</string>
+    <string name="s6_description">Sells Chinese barbeque as well as other traditional dishes</string>
+    <string name="s6_address">Address: 1111 St Urbain, Montreal, Canada</string>
+    <string name="s6_phone">Phone: (514)-861-9958</string>
+    <string name="s6_hours">Hours: Mon-Fri, Sun 8am-7pm</string>
+    <string name="s6_discount">10% Off</string>
+    <string name="s6_query">1111 St Urbain, Montreal, Canada</string>
+
+
 </resources>
