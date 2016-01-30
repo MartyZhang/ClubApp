@@ -28,9 +28,9 @@ public class MainHomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstance) {
         //create content
-        contentList.add(new BaseContent(R.string.home_page1, R.drawable.home_background1, R.drawable.indicator_1));
-        contentList.add(new BaseContent(R.string.home_page2, R.drawable.home_background1, R.drawable.indicator_2));
-        contentList.add(new BaseContent(R.string.home_page3, R.drawable.home_background1, R.drawable.indicator_3));
+        contentList.add(new BaseContent(R.string.home_page1, R.drawable.hk_bg, R.drawable.indicator_1));
+        contentList.add(new BaseContent(R.string.home_page2, R.drawable.drink, R.drawable.indicator_2));
+        contentList.add(new BaseContent(R.string.home_page3, R.drawable.dim_sum, R.drawable.indicator_3));
         //get variables
         final View newView = inflater.inflate(R.layout.hksn_home_fragment, container, false);
         final TextView descripton = (TextView) newView.findViewById(R.id.home_descriptor);
@@ -38,7 +38,7 @@ public class MainHomeFragment extends Fragment {
         final RelativeLayout backgroundContainer = (RelativeLayout) newView.findViewById(R.id.home_background_container);
         BaseContent current = contentList.get(currentPosition);
         //set intial state
-        descripton.setText(current.getDescription());
+        descripton.setText("");
         backgroundContainer.setBackgroundResource(current.getImageResource());
         indicator.setImageResource(R.drawable.indicator_1);
         //add swipe listener
@@ -50,7 +50,7 @@ public class MainHomeFragment extends Fragment {
                     BaseContent current = contentList.get(currentPosition);
                     Fx.slide_left_disappear(getActivity(), descripton);
                     Fx.slide_left_disappear(getActivity(), backgroundContainer);
-                    descripton.setText(current.getDescription());
+                    descripton.setText("");
                     backgroundContainer.setBackgroundResource(current.getImageResource());
                     newView.setBackgroundResource(current.getImageResource());
                     indicator.setImageResource(current.getIndicatorResource());
