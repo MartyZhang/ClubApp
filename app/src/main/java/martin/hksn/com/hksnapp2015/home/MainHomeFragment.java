@@ -46,16 +46,18 @@ public class MainHomeFragment extends Fragment {
             @Override
             public void onSwipeRight() {
                 if (currentPosition != 0) {
+                    BaseContent temp = contentList.get(currentPosition);
+                    if(temp.getImageResource()!=backgroundContainer.getId()) {
+                        backgroundContainer.setBackgroundResource(temp.getImageResource());
+                    }
                     currentPosition = currentPosition - 1;
                     BaseContent current = contentList.get(currentPosition);
                     Fx.slide_left_disappear(getActivity(), descripton);
                     Fx.slide_left_disappear(getActivity(), backgroundContainer);
                     descripton.setText("");
-                    backgroundContainer.setBackgroundResource(current.getImageResource());
                     newView.setBackgroundResource(current.getImageResource());
                     indicator.setImageResource(current.getIndicatorResource());
-                    Fx.slide_left(getActivity(), descripton);
-                    Fx.slide_left(getActivity(), backgroundContainer);
+
                 } else {
                     //do nothing
                 }
@@ -64,16 +66,18 @@ public class MainHomeFragment extends Fragment {
             @Override
             public void onSwipeLeft() {
                 if (currentPosition != (contentList.size() - 1)) {
+                    BaseContent temp = contentList.get(currentPosition);
+                    if(temp.getImageResource()!=backgroundContainer.getId()) {
+                        backgroundContainer.setBackgroundResource(temp.getImageResource());
+                    }
                     currentPosition = currentPosition + 1;
                     BaseContent current = contentList.get(currentPosition);
                     Fx.slide_right_disappear(getActivity(), descripton);
                     Fx.slide_right_disappear(getActivity(), backgroundContainer);
-                    descripton.setText(current.getDescription());
-                    backgroundContainer.setBackgroundResource(current.getImageResource());
+                    descripton.setText("");
                     newView.setBackgroundResource(current.getImageResource());
                     indicator.setImageResource(current.getIndicatorResource());
-                    Fx.slide_right(getActivity(), descripton);
-                    Fx.slide_right(getActivity(), backgroundContainer);
+
                 } else {
                     //do nothing
                 }

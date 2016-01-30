@@ -21,7 +21,6 @@ import java.util.List;
 import martin.hksn.com.hksnapp2015.R;
 import martin.hksn.com.hksnapp2015.aboutUs.MainAboutUsFragment;
 import martin.hksn.com.hksnapp2015.domain.adapters.NavigationDrawerAdapter;
-import martin.hksn.com.hksnapp2015.events.MainEventsFragment;
 import martin.hksn.com.hksnapp2015.home.MainHomeFragment;
 import martin.hksn.com.hksnapp2015.sponsors.MainSponsorFragment;
 
@@ -50,7 +49,6 @@ public class DrawerFragment extends Fragment {
         final DrawerItem[] menuList = new DrawerItem[]{
                 new DrawerItem("Home", R.drawable.ic_home_white_48dp, MainHomeFragment.class),
                 new DrawerItem("Sponsors", R.drawable.ic_domain_white_48dp, MainSponsorFragment.class),
-                new DrawerItem("Events", R.drawable.ic_grade_white_48dp, MainEventsFragment.class),
                 new DrawerItem("About Us", R.drawable.ic_face_white_48dp, MainAboutUsFragment.class)
         };
         return Arrays.asList(menuList);

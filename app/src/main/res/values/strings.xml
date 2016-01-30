@@ -37,54 +37,185 @@
 
     <string name="no_google_maps_toast">Cannot find Google Maps application</string>
 
-    <string name="s1_name">Name: Alto\'s</string>
-    <string name="s1_description">Alto Restaurant has proudly served the residents of Montréal for over 29 years. Altos offers a diverse selection of Italian and Canadian classics, including pizza, pasta, poutine, grilled meat, and more.</string>
-    <string name="s1_address">Address: 3462 Parc Avenue, Montreal, Canada</string>
+    <string name="s1_name">Alto</string>
+    <string name="s1_description">Alto Restaurant has proudly served the residents of Montréal for over 29 years. Alto\'s offers a diverse selection of Italian and Canadian classics, including pizza, pasta, poutine, grilled meat, and more.</string>
+    <string name="s1_address">3462 Parc Avenue</string>
     <string name="s1_phone">Phone: (514)-844-9898</string>
     <string name="s1_hours">Hours: Sun-Thurs 11am-4am, Fri-Sat 11am-5am</string>
-    <string name="s1_discount">N/A</string>
+    <string name="s1_discount">Cash Sponsor</string>
     <string name="s1_query">3462 Parc Avenue, Montreal, Canada</string>
 
-    <string name="s2_name">Name: C\'ChoColat</string>
+    <string name="s2_name">C\'ChoColat</string>
     <string name="s2_description">C\'ChoColat is a contemporary chocolatier in the heart of downtown Montreal. It serves gourmet chocolates, sweets, and is a perfect place to take that special someone.</string>
-    <string name="s2_address">Address: 1255 Bishop Street, Montreal, Canada</string>
+    <string name="s2_address">1255 Bishop Street</string>
     <string name="s2_phone">Phone: (514)-392-7777</string>
-    <string name="s2_hours">Hours: Mon - Thurs 11am-11pm, Fri-Sat 11am-12am, Sun 11am-9pm</string>
+    <string name="s2_hours">Hours: Mon-Thu 11am-11pm, Fri-Sat 11am-12am, Sun 11am-9pm</string>
     <string name="s2_discount">10% Off</string>
     <string name="s2_query">1255 Bishop Street, Montreal, Canada</string>
 
 
-    <string name="s3_name">Name: Cacao 70</string>
-    <string name="s3_description">Cacao 70 is a unique place for relaxing and sharing. it’s a perfect place to drop by after a hectic day at school or work to enjoy some of the best chocolate in Montreal. They also serve a fantastic brunch menu worth getting out of bed for. don’t forget to bring a friend with you. chocolate is an ingredient that brings people together!</string>
-    <string name="s3_address">Address: 3488 Parc Avenue, Montreal, Canada</string>
+    <string name="s3_name">Cacao 70</string>
+    <string name="s3_description">Cacao 70 is a unique place for relaxing and sharing. it\’s a perfect place to drop by after a hectic day at school or work to enjoy some of the best chocolate in Montreal. They also serve a fantastic brunch menu worth getting out of bed for. don’t forget to bring a friend with you. chocolate is an ingredient that brings people together!</string>
+    <string name="s3_address">3488 Parc Avenue</string>
     <string name="s3_phone">Phone: (514)-844-4442</string>
     <string name="s3_hours">Hours: Sun-Thurs 10-11pm, Fri-Sat 10-00AM</string>
-    <string name="s3_discount">Free Americano Hot Chocolate</string>
+    <string name="s3_discount">Free Hot Chocolate</string>
     <string name="s3_query">1255 Bishop Street, Montreal, Canada</string>
 
-    <string name="s4_name">Name: Cafe Aunja</string>
-    <string name="s4_description">Cozy basement-level Persian tea \& coffee spot offering sweets, art on the walls \& live music.</string>
-    <string name="s4_address">Address: 1448 Sherbrooke West, Montreal, Canada</string>
+    <string name="s4_name">Cafe Aunja</string>
+    <string name="s4_description">Cozy basement-level Persian tea &amp; coffee spot offering sweets, art on the walls &amp; live music.</string>
+    <string name="s4_address">1448 Sherbrooke West</string>
     <string name="s4_phone">Phone: (514)-914-8337</string>
     <string name="s4_hours">Hours: Mon-Sun 10am-10pm</string>
     <string name="s4_discount">10% Off</string>
     <string name="s4_query">1448 Sherbrooke West, Montreal, Canada</string>
 
-    <string name="s5_name">Name: Chatime</string>
+    <string name="s5_name">Chatime</string>
     <string name="s5_description">The Starbucks of boba, Chatime serves the best bubble tea in the world! Come enjoy a free upgrade with HKSN!</string>
-    <string name="s5_address">Address: 1811 St Catherine, Montreal, Canada</string>
+    <string name="s5_address">1811 St Catherine</string>
     <string name="s5_phone">Phone: (514)-933-4040</string>
     <string name="s5_hours">Hours: Mon-Sun 12pm-11pm</string>
     <string name="s5_discount">Free Upgrade</string>
     <string name="s5_query">1811 St Catherine, Montreal, Canada</string>
 
-    <string name="s6_name">Name: Dobe \& Andy</string>
-    <string name="s6_description">Sells Chinese barbeque as well as other traditional dishes</string>
-    <string name="s6_address">Address: 1111 St Urbain, Montreal, Canada</string>
+    <string name="s6_name">Dobe &amp; Andy</string>
+    <string name="s6_description">Sells Chinese barbeque as well as other traditional dishes! Located in the heart of Chinatown, enjoy a hearty traditional meal with a discount on HKSN!</string>
+    <string name="s6_address">1111 St Urbain</string>
     <string name="s6_phone">Phone: (514)-861-9958</string>
     <string name="s6_hours">Hours: Mon-Fri, Sun 8am-7pm</string>
     <string name="s6_discount">10% Off</string>
     <string name="s6_query">1111 St Urbain, Montreal, Canada</string>
+
+    <string name="s7_name">Edo Japan</string>
+    <string name="s7_description">Stop by Edo Japan Montreal location in Montreal Eaton Centre and satisfy your hunger with a sizzling hot Teppanyaki meal made with choice meats and fresh vegetables topped with their famous Teriyaki sauce, or choose from a selection of handmade sushi. It\'s fast, fresh and delicious food made simply better. </string>
+    <string name="s7_address">705 St Catherine</string>
+    <string name="s7_phone">Phone: (514)-843-7054</string>
+    <string name="s7_hours">Hours: Mon-Fri 10am-9pm, Sat-Sun 10am-5pm</string>
+    <string name="s7_discount">Free Drink</string>
+    <string name="s7_query">705 St Catherine Street, Montreal, Canada</string>
+
+
+    <string name="s8_name">Fou D\'Ici</string>
+    <string name="s8_description">An ever-changing menu of gourmet sandwiches, fresh soups, salads and ready-made meals to go. Try Fou D\'Ici today with 10% off on HKSN!</string>
+    <string name="s8_address">360 Maisonneuve Boulevard</string>
+    <string name="s8_phone">Phone: (514)-600-3424</string>
+    <string name="s8_hours">Hours: Mon-Fri 8am-8pm, Sat 9am-6pm</string>
+    <string name="s8_discount">10% discount</string>
+    <string name="s8_query">360 Maisonneuve Boulevard, Montreal, Canada</string>
+
+
+    <string name="s9_name">Freshii</string>
+    <string name="s9_description">Health-minded, counter-serve chain offering tossed-to-order salads plus soups, burritos &amp; more. Leave that Candy bar in the trash and enjoy 5% off on HKSN!</string>
+    <string name="s9_address">3454 Parc Avenue</string>
+    <string name="s9_phone">Phone: (514)-589-3744</string>
+    <string name="s9_hours">Hours: Mon-Sun 11AM - 9PM</string>
+    <string name="s9_discount">5% discount</string>
+    <string name="s9_query">3454 Parc Avenue, Montreal, Canada</string>
+
+
+    <string name="s10_name">Genki Crepe</string>
+    <string name="s10_description">Delicious crepes, pasteries, and homebrewed coffee located right above Parc Metro. Try this lovely Japanese-style cafe today and enjoy 10% off on HKSN!</string>
+    <string name="s10_address">3575 Parc Avenue</string>
+    <string name="s10_phone">Phone: (514)-844-5779</string>
+    <string name="s10_hours">Hours: Mon-Fri 8am-9pm, Sat-Sun 10am-6pm</string>
+    <string name="s10_discount">10% off (excludes pastries)</string>
+    <string name="s10_query">3575 Parc Avenue, Montreal, Canada</string>
+
+    <string name="s11_name">Haru Hana</string>
+    <string name="s11_description">Delicious Korean cuisine in the heart of downtown Montreal. Authentic Kimchi, Kimbap, and other amazing dishes. Enjoy 15% off on HKSN!</string>
+    <string name="s11_address">912 Maisonneuve Boulevard</string>
+    <string name="s11_phone">Phone: (514)-903-5005</string>
+    <string name="s11_hours">Hours: Mon-Fri 9am-3:30pm; 5-9pm, Sat 9am-5pm</string>
+    <string name="s11_discount">15% Off</string>
+    <string name="s11_query">912 Maisonneuve Boulevard, Montreal, Canada</string>
+
+    <string name="s12_name">Inspirer</string>
+    <string name="s12_description">Amazing online art retailer with Monreal roots. Want some amazing wall decor? Hit up Inspirer.ca with HKSN and get 20% off!</string>
+    <string name="s12_address">Online</string>
+    <string name="s12_phone">Phone: N/A</string>
+    <string name="s12_hours">Hours: Always Open!</string>
+    <string name="s12_discount">20% Off</string>
+    <string name="s12_query">Online</string>
+
+    <string name="s13_name">Kafein</string>
+    <string name="s13_description">Trendy Cafe located near Concordia serving paninis, chacuterie, and craft cocktails. Occasionally hosts poetry and art events and is perfect to take a date or friend!</string>
+    <string name="s13_address">1429 Bishop Street</string>
+    <string name="s13_phone">Phone: (514)-904-6969</string>
+    <string name="s13_hours">Hours: Mon-Thu 9am-12am, Fri-Sat 10am-3am, Sun 10am -7pm</string>
+    <string name="s13_discount">10% Off</string>
+    <string name="s13_query">1429 Bishop Street, Montreal, Canada</string>
+
+    <string name="s14_name">L2 Lounge</string>
+    <string name="s14_description">Located in the heart of Chinatown, L2 Lounge serves some of the best bubble tea in Montreal! Also sells delicious meals to pair up with that yummy boba!</string>
+    <string name="s14_address">71 Gauchetiere O</string>
+    <string name="s14_phone">Phone: (514)-878-0572</string>
+    <string name="s14_hours">Hours: Sun-Thurs 12pm-12am, Fri-Sat 12pm-1am</string>
+    <string name="s14_discount">10% Off</string>
+    <string name="s14_query">71 Gauchetiere O, Montreal, Canada</string>
+
+    <string name="s15_name">Le Cristal Chinois</string>
+    <string name="s15_description">An upscale Chinese restaurant in the heart of Chinatown, Downtown! Cristal Chinois presents a variety of well known dishes such as Peking Duck, and a large variety of live seafood such as lobsters, crabs and fishes! They also serve Dim Sum, yum!</string>
+    <string name="s15_address">998 Saint-Laurent</string>
+    <string name="s15_phone">Phone: (514)-876-8778</string>
+    <string name="s15_hours">Hours: Mon-Sun 10am-2pm, 5-10pm </string>
+    <string name="s15_discount">10% Off</string>
+    <string name="s15_query">998 Saint-Laurent Boulevard, Montreal, Canada</string>
+
+    <string name="s16_name">Le Painnamou</string>
+    <string name="s16_description">Delicious Korean bakery on Bishop street that serves up all kinds of wonderful sweets! Painnamou also makes the best shaved ice in Montreal and is a wonderful date location! Enjoy 10% off with HKSN today!</string>
+    <string name="s16_address">2019 Rue Bishop</string>
+    <string name="s16_phone">Phone: (438)-386-7880</string>
+    <string name="s16_hours">Hours: Tue-Wed 10:30am-8pm, Thurs-Sat 10:30-9pm, Sun 10:30-6pm</string>
+    <string name="s16_discount">10% Off</string>
+    <string name="s16_query">2019 Rue Bishop, Montreal, Canada</string>
+
+    <string name="s17_name">Les Saisons de Corée</string>
+    <string name="s17_description">Incredibly authentic and tasty Korean cuisine located near Concordia! Delicious pork-bone soup amongst other classic Korean dishes!</string>
+    <string name="s17_address">1184 Rue Bishop</string>
+    <string name="s17_phone">Phone: (514)-700-3010</string>
+    <string name="s17_hours">Hours: Mon-Thurs 11:30am-1am; Fri-Sat 11:30am-3am; Sun 5pm-12am</string>
+    <string name="s17_discount">10% Off for over $40</string>
+    <string name="s17_query">1184 Rue Bishop, Montreal, Canada</string>
+
+    <string name="s18_name"></string>
+    <string name="s18_description"></string>
+    <string name="s18_address"></string>
+    <string name="s18_phone">Phone: </string>
+    <string name="s18_hours">Hours: </string>
+    <string name="s18_discount">10% Off</string>
+    <string name="s18_query">, Montreal, Canada</string>
+
+    <string name="s14_name"></string>
+    <string name="s14_description"></string>
+    <string name="s14_address"></string>
+    <string name="s14_phone">Phone: </string>
+    <string name="s14_hours">Hours: </string>
+    <string name="s14_discount">10% Off</string>
+    <string name="s14_query">, Montreal, Canada</string>
+
+    <string name="s14_name"></string>
+    <string name="s14_description"></string>
+    <string name="s14_address"></string>
+    <string name="s14_phone">Phone: </string>
+    <string name="s14_hours">Hours: </string>
+    <string name="s14_discount">10% Off</string>
+    <string name="s14_query">, Montreal, Canada</string>
+
+    <string name="s14_name"></string>
+    <string name="s14_description"></string>
+    <string name="s14_address"></string>
+    <string name="s14_phone">Phone: </string>
+    <string name="s14_hours">Hours: </string>
+    <string name="s14_discount">10% Off</string>
+    <string name="s14_query">, Montreal, Canada</string>
+
+    <string name="s14_name"></string>
+    <string name="s14_description"></string>
+    <string name="s14_address"></string>
+    <string name="s14_phone">Phone: </string>
+    <string name="s14_hours">Hours: </string>
+    <string name="s14_discount">10% Off</string>
+    <string name="s14_query">, Montreal, Canada</string>
 
 
 </resources>

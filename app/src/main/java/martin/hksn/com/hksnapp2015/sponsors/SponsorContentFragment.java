@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 import martin.hksn.com.hksnapp2015.R;
 
 /**
@@ -41,13 +43,13 @@ public class SponsorContentFragment extends Fragment {
         TextView discount = (TextView) contentContainer.findViewById(R.id.sponsor_discount);
         ImageView logo = (ImageView) contentContainer.findViewById(R.id.sponsor_logo);
 
-        name.setText(current.getName());
+        name.setText("Name: " + getResources().getString(current.getName()));
         description.setText(current.getDescription());
         address.setText(current.getAddress());
         phone_number.setText(current.getPhone_number());
         hours.setText(current.getHours());
         discount.setText("Discount: " + getResources().getString(current.getDiscount()));
-        logo.setImageResource(current.getImageResource());
+        Picasso.with(getActivity().getApplicationContext()).load(current.getImageResource()).resize(0, 150).into(logo);
 
         TextView mapDirector = (TextView) contentContainer.findViewById(R.id.sponsor_location);
         mapDirector.setOnClickListener(new View.OnClickListener() {

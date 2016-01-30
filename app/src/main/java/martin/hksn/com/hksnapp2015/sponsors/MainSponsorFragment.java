@@ -21,17 +21,17 @@ public class MainSponsorFragment extends Fragment {
 
     public static Sponsor[] sponsorsArray = {
             new Sponsor(R.string.s1_name, R.string.s1_description, R.string.s1_address, R.string.s1_phone,
-                    R.string.s1_hours, R.string.s1_discount, R.drawable.Alto, R.string.s1_query),
+                    R.string.s1_hours, R.string.s1_discount, R.drawable.alto, R.string.s1_query),
             new Sponsor(R.string.s2_name, R.string.s2_description, R.string.s2_address, R.string.s2_phone,
-                    R.string.s2_hours, R.string.s2_discount, R.drawable.CChocolat, R.string.s2_query),
+                    R.string.s2_hours, R.string.s2_discount, R.drawable.cchocolat, R.string.s2_query),
             new Sponsor(R.string.s3_name, R.string.s3_description, R.string.s3_address, R.string.s3_phone,
-                    R.string.s3_hours, R.string.s3_discount, R.drawable.Cacao70, R.string.s3_query),
+                    R.string.s3_hours, R.string.s3_discount, R.drawable.cacao70, R.string.s3_query),
             new Sponsor(R.string.s4_name, R.string.s4_description, R.string.s4_address, R.string.s4_phone,
-                    R.string.s4_hours, R.string.s4_discount, R.drawable.Cafe_Aunja, R.string.s4_query),
+                    R.string.s4_hours, R.string.s4_discount, R.drawable.cafe_aunja, R.string.s4_query),
             new Sponsor(R.string.s5_name, R.string.s5_description, R.string.s5_address, R.string.s5_phone,
-                    R.string.s5_hours, R.string.s5_discount, R.drawable.Chatime, R.string.s5_query),
+                    R.string.s5_hours, R.string.s5_discount, R.drawable.chatime, R.string.s5_query),
             new Sponsor(R.string.s6_name, R.string.s6_description, R.string.s6_address, R.string.s6_phone,
-                    R.string.s6_hours, R.string.s6_discount, R.drawable.Dobe_Andy, R.string.s6_query),
+                    R.string.s6_hours, R.string.s6_discount, R.drawable.dobe_andy, R.string.s6_query),
 
     };
 

@@ -9,10 +9,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-
 import martin.hksn.com.hksnapp2015.R;
 import martin.hksn.com.hksnapp2015.domain.EventContent;
 import martin.hksn.com.hksnapp2015.domain.Fx;
@@ -25,11 +21,11 @@ public class MainEventsFragment extends Fragment {
 
     private int currentPosition = 0;
     private static EventContent[] contentList = {new EventContent(R.string.event_title1, R.string.event_description1,
-            R.drawable.event_background1, R.drawable.indicator_1),
+            R.drawable.dim_sum, R.drawable.indicator_1),
             new EventContent(R.string.event_title2, R.string.event_description2,
-                    R.drawable.event_background1, R.drawable.indicator_2),
+                    R.drawable.drink, R.drawable.indicator_2),
             new EventContent(R.string.event_title3, R.string.event_description3,
-                    R.drawable.event_background1, R.drawable.indicator_3)};
+                    R.drawable.hk_bg, R.drawable.indicator_3)};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstance) {

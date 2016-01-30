@@ -15,7 +15,6 @@ import android.widget.TextView;
 import martin.hksn.com.hksnapp2015.R;
 import martin.hksn.com.hksnapp2015.aboutUs.MainAboutUsFragment;
 import martin.hksn.com.hksnapp2015.domain.DrawerFragment;
-import martin.hksn.com.hksnapp2015.events.MainEventsFragment;
 import martin.hksn.com.hksnapp2015.home.MainHomeFragment;
 import martin.hksn.com.hksnapp2015.sponsors.MainSponsorFragment;
 
@@ -60,12 +59,6 @@ public class MainActivity extends AppCompatActivity implements DrawerFragment.Fr
                 logoView.setVisibility(View.GONE);
                 break;
             case 2:
-                fragment = new MainEventsFragment();
-                titleView.setText(getString(R.string.title_events));
-                titleView.setVisibility(View.VISIBLE);
-                logoView.setVisibility(View.GONE);
-                break;
-            case 3:
                 fragment = new MainAboutUsFragment();
                 titleView.setText(getString(R.string.title_about_us));
                 titleView.setVisibility(View.VISIBLE);
