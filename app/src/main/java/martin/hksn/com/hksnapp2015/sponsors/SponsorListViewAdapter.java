@@ -32,25 +32,29 @@ public class SponsorListViewAdapter extends ArrayAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         SponsorHolder sponsorHolder;
         if (convertView == null) {
-            if(position%2!=0) {
-                LayoutInflater inflater = ((Activity) context).getLayoutInflater();
-                convertView = inflater.inflate(R.layout.sponsor_list_layout, parent, false);
-                sponsorHolder = new SponsorHolder();
-                sponsorHolder.sponsorLogo = (ImageView) convertView.findViewById(R.id.sponsor_logo_list);
-                sponsorHolder.discount = (TextView) convertView.findViewById(R.id.sponor_discount_list);
-                sponsorHolder.address = (TextView) convertView.findViewById(R.id.sponor_location_list);
-                sponsorHolder.name = (TextView) convertView.findViewById(R.id.sponor_name_list);
-                convertView.setTag(sponsorHolder);
-            } else {
-                LayoutInflater inflater = ((Activity) context).getLayoutInflater();
-                convertView = inflater.inflate(R.layout.sponsor_list_layout2, parent, false);
-                sponsorHolder = new SponsorHolder();
-                sponsorHolder.sponsorLogo = (ImageView) convertView.findViewById(R.id.sponsor_logo_list1);
-                sponsorHolder.discount = (TextView) convertView.findViewById(R.id.sponor_discount_list1);
-                sponsorHolder.address = (TextView) convertView.findViewById(R.id.sponor_location_list1);
-                sponsorHolder.name = (TextView) convertView.findViewById(R.id.sponor_name_list1);
-                convertView.setTag(sponsorHolder);
+            int viewType = getItemViewType(position);
+            LayoutInflater inflater = ((Activity) context).getLayoutInflater();
+            sponsorHolder = new SponsorHolder();
+            switch (viewType) {
+                case 0:
+                    convertView = inflater.inflate(R.layout.sponsor_list_layout, parent, false);
+                    sponsorHolder.sponsorLogo = (ImageView) convertView.findViewById(R.id.sponsor_logo_list);
+                    sponsorHolder.discount = (TextView) convertView.findViewById(R.id.sponor_discount_list);
+                    sponsorHolder.address = (TextView) convertView.findViewById(R.id.sponor_location_list);
+                    sponsorHolder.name = (TextView) convertView.findViewById(R.id.sponor_name_list);
+
+                    break;
+
+                case 1:
+                    convertView = inflater.inflate(R.layout.sponsor_list_layout2, parent, false);
+                    sponsorHolder.sponsorLogo = (ImageView) convertView.findViewById(R.id.sponsor_logo_list1);
+                    sponsorHolder.discount = (TextView) convertView.findViewById(R.id.sponor_discount_list1);
+                    sponsorHolder.address = (TextView) convertView.findViewById(R.id.sponor_location_list1);
+                    sponsorHolder.name = (TextView) convertView.findViewById(R.id.sponor_name_list1);
+                    break;
             }
+                convertView.setTag(sponsorHolder);
+
         } else {
             sponsorHolder = (SponsorHolder) convertView.getTag();
         }
@@ -70,6 +74,16 @@ public class SponsorListViewAdapter extends ArrayAdapter {
     @Override
     public Sponsor getItem(int position) {
         return sponsorList.get(position);
+    }
+
+    @Override
+    public int getViewTypeCount() {
+        return 2;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return position % 2;
     }
 
     static class SponsorHolder {

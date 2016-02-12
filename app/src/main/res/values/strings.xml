@@ -87,7 +87,7 @@
     <string name="s6_query">1111 St Urbain, Montreal, Canada</string>
 
     <string name="s7_name">Edo Japan</string>
-    <string name="s7_description">Stop by Edo Japan Montreal location in Montreal Eaton Centre and satisfy your hunger with a sizzling hot Teppanyaki meal made with choice meats and fresh vegetables topped with their famous Teriyaki sauce, or choose from a selection of handmade sushi. It\'s fast, fresh and delicious food made simply better. </string>
+    <string name="s7_description">Stop by Edo Japan\'s Montreal location in Montreal Eaton Centre and satisfy your hunger with a sizzling hot Teppanyaki meal made with choice meats and fresh vegetables topped with their famous Teriyaki sauce, or choose from a selection of handmade sushi. It\'s fast, fresh and delicious food made simply better. </string>
     <string name="s7_address">705 St Catherine</string>
     <string name="s7_phone">Phone: (514)-843-7054</string>
     <string name="s7_hours">Hours: Mon-Fri 10am-9pm, Sat-Sun 10am-5pm</string>
@@ -177,45 +177,85 @@
     <string name="s17_discount">10% Off for over $40</string>
     <string name="s17_query">1184 Rue Bishop, Montreal, Canada</string>
 
-    <string name="s18_name"></string>
-    <string name="s18_description"></string>
-    <string name="s18_address"></string>
-    <string name="s18_phone">Phone: </string>
-    <string name="s18_hours">Hours: </string>
+    <string name="s18_name">Liquid Nutrition</string>
+    <string name="s18_description">Healthy beverages for somewhat fair prices! Take care of your body next time you\'re at SSMU with a drink from Liquid Nutrition!</string>
+    <string name="s18_address">3480 Rue McTavish (SSMU)</string>
+    <string name="s18_phone">Phone: (514)-544-8766</string>
+    <string name="s18_hours">Hours: Mon-Fri 9am-7pm; Sat 12-5pm</string>
     <string name="s18_discount">10% Off</string>
-    <string name="s18_query">, Montreal, Canada</string>
+    <string name="s18_query">3480 Rue McTavish, Montreal, Canada</string>
 
-    <string name="s14_name"></string>
-    <string name="s14_description"></string>
-    <string name="s14_address"></string>
-    <string name="s14_phone">Phone: </string>
-    <string name="s14_hours">Hours: </string>
-    <string name="s14_discount">10% Off</string>
-    <string name="s14_query">, Montreal, Canada</string>
+    <string name="s19_name">Luo\'s</string>
+    <string name="s19_description">Delicious Pho right underneath McGill\'s very own New Residence Hall! Convenient and tasty for those cold Montreal winters!</string>
+    <string name="s19_address">3575 Parc Ave</string>
+    <string name="s19_phone">Phone: (514)-844-1879</string>
+    <string name="s19_hours">Hours: Mon-Sun 11am-10pm</string>
+    <string name="s19_discount">10% Off (Cash)</string>
+    <string name="s19_query">3575 Parc Avenue, Montreal, Canada</string>
 
-    <string name="s14_name"></string>
-    <string name="s14_description"></string>
-    <string name="s14_address"></string>
-    <string name="s14_phone">Phone: </string>
-    <string name="s14_hours">Hours: </string>
-    <string name="s14_discount">10% Off</string>
-    <string name="s14_query">, Montreal, Canada</string>
+    <string name="s20_name">Nos Thes</string>
+    <string name="s20_description">Wonderful Taiwanese food joint in downtown Montreal! They sell delicious pork rice along with classic Taiwanese bubble tea, served with tiny bubbles on select days!</string>
+    <string name="s20_address"> 1609 St-Catherine</string>
+    <string name="s20_phone">Phone: (514)-904-0246</string>
+    <string name="s20_hours">Hours: Mon-Thurs 12-10:30PM, Fri-sat 12-11PM, Sun 12-10PM</string>
+    <string name="s20_discount">10% Off</string>
+    <string name="s20_query">1609 Rue Ste-Catherine, Montreal, Canada</string>
 
-    <string name="s14_name"></string>
-    <string name="s14_description"></string>
-    <string name="s14_address"></string>
-    <string name="s14_phone">Phone: </string>
-    <string name="s14_hours">Hours: </string>
-    <string name="s14_discount">10% Off</string>
-    <string name="s14_query">, Montreal, Canada</string>
+    <string name="s21_name">Nudo</string>
+    <string name="s21_description">Watch as your noodles are kneaded, pulled, and then boiled right in front of your eyes! Nudo serves some of the most bomb noodles in all of Montreal and HKSN has secured our members a free drink for every meal they devour at Nudo!</string>
+    <string name="s21_address">705 St-Catherine</string>
+    <string name="s21_phone">Phone: (514)-508-9636</string>
+    <string name="s21_hours">Hours: Mon-Sun 10am-8pm</string>
+    <string name="s21_discount">Free Drink</string>
+    <string name="s21_query">705 St-Catherine Street, Montreal, Canada</string>
 
-    <string name="s14_name"></string>
-    <string name="s14_description"></string>
-    <string name="s14_address"></string>
-    <string name="s14_phone">Phone: </string>
-    <string name="s14_hours">Hours: </string>
-    <string name="s14_discount">10% Off</string>
-    <string name="s14_query">, Montreal, Canada</string>
+    <string name="s22_name">O\'Burger</string>
+    <string name="s22_description">Concept of O\’burger –  combines delicious gourmet burgers with quick service in a comfortable atmosphere. You get to have a great Angus Beef patty with all fresh ingredients like fresh mushrooms a variety of real cheeses. Get 10% off with HKSN today!</string>
+    <string name="s22_address">1777 McGill College</string>
+    <string name="s22_phone">Phone: (514)-285-0005</string>
+    <string name="s22_hours">Hours: Mon-Sat 11:30am-8pm</string>
+    <string name="s22_discount">10% Off</string>
+    <string name="s22_query">1777 Avenue McGill College, Montreal, Canada</string>
+
+    <string name="s23_name">Putting Edge</string>
+    <string name="s23_description">Putting edge takes the traditional game of mini golf, brought it indoors, turned down the lights and turned up the music to create a 18 hole fantasy land of vibrant color and surreal themes. Putting Edge is perfect for that night out with the friends, with that special someone, or a fun-filled family outing. Take a break from reality, and visit Putting Edge today!</string>
+    <string name="s23_address">1259 Rue Guy</string>
+    <string name="s23_phone">Phone: (514)-507-8106	</string>
+    <string name="s23_hours">Hours: Mon-Fri 3pm - 11pm/1am, Sat 10-1am, Sun 11am-11pm </string>
+    <string name="s23_discount">10% Off</string>
+    <string name="s23_query">1259 Rue Guy, Montreal, Canada</string>
+
+    <string name="s24_name">Saigon</string>
+    <string name="s24_description">Go to place for that quick bite in between study sessions. Yummy Vietnamese food ranging from pho to pepper chicken, take 10% with HKSN!</string>
+    <string name="s24_address">2044 Rue Metcalfe</string>
+    <string name="s24_phone">Phone: (514)-284-9999</string>
+    <string name="s24_hours">Hours: Mon-Fri 11am-10pm, Sat 4pm-10pm</string>
+    <string name="s24_discount">10% Off</string>
+    <string name="s24_query">2044 Rue Metcalfe, Montreal, Canada</string>
+
+    <string name="s25_name">Spicy Noodle</string>
+    <string name="s25_description">Located right underneath New Rez, Spicy Noodle is that perfect go to bite when you want some fast and authentic Chinese food. From general tao chicken to pad thai, Spicy Noodle is perfect for that study break meal!</string>
+    <string name="s25_address">3575 Ave du Parc</string>
+    <string name="s25_phone">Phone: (514) 847-0222</string>
+    <string name="s25_hours">Hours: Mon-Sun 11am-11:30pm</string>
+    <string name="s25_discount">10% Off</string>
+    <string name="s25_query">3575 Ave du Parc, Montreal, Canada</string>
+
+    <string name="s26_name">The Basak</string>
+    <string name="s26_description">When Korean dramas talk about beer and chicken, they’re referencing Basak. Their chicken is the most flavourful, tender, and crispy fried chicken in Montreal. Coupled with some beer, it’s the perfect place to relive your Korean drama dreams!</string>
+    <string name="s26_address">1237 Rue Guy</string>
+    <string name="s26_phone">Phone: (514)-508-1144</string>
+    <string name="s26_hours">Hours: Sun-Wed 5-11pm, Thurs-Sat 12-11pm</string>
+    <string name="s26_discount">10% Off</string>
+    <string name="s26_query">1237 Rue Guy, Montreal, Canada</string>
+
+    <string name="s27_name">Yogurty\'s</string>
+    <string name="s27_description">Yogurty\’s is the ultimate self-serve frozen yogurt experience that lets you create your own froyo masterpiece with a choice of over 155 flavours. Try it today on Parc!</string>
+    <string name="s27_address"> 3454 Ave du Parc</string>
+    <string name="s27_phone">Phone: (514)-286-3737</string>
+    <string name="s27_hours">Hours: Mon-Sun 12-11pm</string>
+    <string name="s27_discount">10% Off</string>
+    <string name="s27_query">3454 Ave du Parc, Montreal, Canada</string>
 
 
 </resources>
