@@ -6,8 +6,8 @@ Build using Material Design guidelines for Lollipop
 
 Screens:
 
-![Alt text](/Screens1.png?raw=true "Optional Title")
+<img src="https://github.com/MartyZhang/ClubApp/blob/master/Screens1.png" alt="alt text" width="250">
 
-![Alt text](/Screens2.png?raw=true "Optional Title")
+<img src="https://github.com/MartyZhang/ClubApp/blob/master/Screens2.png" alt="alt text" width="250">
 
-![Alt text](/Screens3.png?raw=true "Optional Title")
+<img src="https://github.com/MartyZhang/ClubApp/blob/master/Screens3.png" alt="alt text" width="250">
