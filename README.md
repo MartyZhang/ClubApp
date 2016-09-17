@@ -6,8 +6,8 @@ Build using Material Design guidelines for Lollipop
 
 Screens:
 
-![Alt text](/Screen1.png?raw=true "Optional Title")
+![Alt text](/Screens1.png?raw=true "Optional Title")
 
-![Alt text](/Screen2.png?raw=true "Optional Title")
+![Alt text](/Screens2.png?raw=true "Optional Title")
 
-![Alt text](/Screen3.png?raw=true "Optional Title")
+![Alt text](/Screens3.png?raw=true "Optional Title")
